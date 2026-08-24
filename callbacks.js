@@ -12,7 +12,7 @@ function getprofile(id, callback){
     setTimeout(() => {
         console.log("profile fetched");
         const profile = {
-            username : "mukesh",
+            username : "Lavish",
             location : "Ghaziabad"
         }
         callback(null, profile);
