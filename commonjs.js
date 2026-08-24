@@ -3,4 +3,4 @@ console.log(calculate_area(10));
 const calculate_perimeter = require('./main')
 console.log(calculate_perimeter());
 const isVote = require('./esm')
-console.log(isVote(20));
+console.log(isVote(19));
