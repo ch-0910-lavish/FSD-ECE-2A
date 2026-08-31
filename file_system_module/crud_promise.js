@@ -16,7 +16,7 @@ async function fileOperations() {
         console.log("Text appended successfully");
         
     } catch (error) {
-        console.error("Error:", error);
+        console.error("Error :", error);
     }
 }
 
