@@ -18,7 +18,7 @@ fs.writeFile("./myFolder/notes.txt", "Hello ECE A", (err) => {
             console.log(err);
             return
         }
-            console.log("Directory Contents: ", files);
+            console.log("Directory Contents : ", files);
     });
     });
 });
