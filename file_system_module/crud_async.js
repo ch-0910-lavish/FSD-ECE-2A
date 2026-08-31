@@ -11,7 +11,7 @@ fs.radFile("notes.txt", (err, data) => {
     console.log(`read data : ${data}`);
 })
 // update file 
-  const data = "Hello, ECE -A";
+  const data = "Hello, ECE - A";
   fs.appendFile("notes.txt", data, (err) => {
     if (err) throw err;
     console.log(" File updated  successfully.");
